@@ -1,6 +1,6 @@
 import { ModeToggle } from "@/components/ui/toggle";
 
-import { FormComponent } from "@/pages/form";
+import { FormComponent } from "@/components/form";
 
 export default function Home() {
   return (

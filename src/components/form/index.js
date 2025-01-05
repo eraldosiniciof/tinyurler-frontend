@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { useForm } from "react-hook-form";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -26,6 +25,7 @@ export function FormComponent() {
         throw new Error("Erro na requisição");
       }
 
+      console.log(result);
       const data = await result.json();
       setShortedUrl(data[0]);
     } catch (error) {
