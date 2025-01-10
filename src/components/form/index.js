@@ -55,7 +55,7 @@ export function FormComponent() {
     }
   }
 
-y  return (
+  return (
     <>
       <Image
         alt="logo"
